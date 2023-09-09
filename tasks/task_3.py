@@ -1,6 +1,8 @@
-first_number = ...  # Ваш код
-second_number = ...  # Ваш код
+# Программа, которая запрашивает у пользователя два числа
+# и выводит сообщение, соответствует ли условие boolian()
+first_number: float = float(input('Введите первое число: '))
+second_number: float = float(input('Введите второе число: '))
 
-result = ...  # Ваш код
+result = bool(first_number > second_number)
 
-print(...)  # Ваш код
+print('Число', first_number, 'больше числа', second_number, 'это -', result)
