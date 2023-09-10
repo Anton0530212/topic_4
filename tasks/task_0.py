@@ -6,5 +6,3 @@ user_input: str = input('Введите свой ответ: ')
 result: bool = bool(user_input)
 
 print('Эльмор:', result)
-
-# подсмотрел логику решения в теории

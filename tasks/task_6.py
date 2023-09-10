@@ -4,8 +4,6 @@
 num_1: float = float(input('Введите первое положительное число: '))
 num_2: float = float(input('Введите второе положительное число: '))
 
-is_divisible = num_1 % num_2
+is_divisible: bool = num_1 % num_2 == 0
 
-print(not bool(is_divisible))
-
-# путаю оператор % с //
+print(is_divisible)
