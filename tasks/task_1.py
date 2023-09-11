@@ -3,8 +3,6 @@
 # равным указанному числу.
 number: int = int(input('Введите целое число: '))
 
-result = 'o' in 'Python'
+result = 'Pyth' + 'o' * number + 'n'
 
-print(result * number) # Ваш код
-
-#не могу решить, не помогла даже теория для решения
+print(result)
